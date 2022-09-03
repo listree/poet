@@ -1,6 +1,6 @@
 package com.leetcode;
 
-import com.leetcode.graph.MediumSplitIntoFib;
+import com.leet.graph.MediumSplitIntoFib;
 import org.junit.Assert;
 import org.junit.Test;
 

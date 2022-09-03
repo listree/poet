@@ -1,6 +1,6 @@
 # Poetic Coding
-[Poems](http://shycook.com) (40) | [Codes](https://github.com/listree) (120) 
- 
+[Poems](http://shycook.com) (50) | [Codes](https://listree.com) (180)
+
 山外青山楼外楼
 
 西湖歌舞几时休

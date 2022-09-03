@@ -1,5 +1,6 @@
 package com.cookbook;
 
+import com.cook.SearchTrie;
 import org.junit.Assert;
 import org.junit.Test;
 

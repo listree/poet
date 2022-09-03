@@ -1,6 +1,10 @@
 package com.leetcode;
 
-import com.leetcode.tree.*;
+import com.leet.TreeNode;
+import com.leet.tree.EasyInOrder;
+import com.leet.tree.EasyPreOrder;
+import com.leet.tree.MediumBSTIterator;
+import com.leet.tree.MediumLevelOrder;
 import org.junit.Assert;
 import org.junit.Test;
 

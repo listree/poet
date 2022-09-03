@@ -5,9 +5,9 @@ repos:
     -   id: check-json
     -   id: check-xml
     -   id: check-yaml
+    -   id: end-of-file-fixer
     -   id: trailing-whitespace
 -   repo: https://github.com/psf/black
-    rev: 21.12b0
+    rev: 23.3.0
     hooks:
     -   id: black
-

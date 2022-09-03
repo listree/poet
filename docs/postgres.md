@@ -1,32 +1,31 @@
-list all databases
+Prerequisite: install PostgreSQL 10 or higher
 
-postgres=# \l
+#### Command line: psql postgres
 
-switch to database
+- postgres=# create database testdb;
 
-postgres=# \c testdb
+- postgres=# create user test with password 'test';
 
-list all tables
+- postgres=# grant all privileges on database testdb to test;
 
-testdb=# \dt
+#### list all databases
 
-describe a table
+- postgres=# \l
 
-testdb=# \d testtable
+#### switch to database
 
-PostgreSQL 10 or higher is expected. Once installed you need to create a database with the default credentials:
+- postgres=# \c testdb
 
-$ psql postgres
+#### list all tables
 
-postgres=# create database poet; 
+- testdb=# \dt
 
-postgres=# create user poet with password 'poet';
+#### describe a table
 
-postgres=# grant all privileges on database poet to poet;
+- testdb=# \d testtable
 
+#### Common functions:
 
-Common functions:
+- Time: now()
 
-Time: now()
-
-UUID: gen_random_uuid()
+- UUID: gen_random_uuid()

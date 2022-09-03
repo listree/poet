@@ -34,7 +34,7 @@ public class AwsTest {
             new AwsClientBuilder.EndpointConfiguration("http://localhost:4566", "us-east-1"); //"eu-west-3"
         BasicAWSCredentials s3Credentials = new BasicAWSCredentials("test", "test" );
         AWSStaticCredentialsProvider credentialsProvider = new AWSStaticCredentialsProvider(s3Credentials);
-        
+
         AmazonS3ClientBuilder builder = AmazonS3ClientBuilder.standard()
             .withCredentials(credentialsProvider)
             .withEndpointConfiguration(s3Endpoint);
