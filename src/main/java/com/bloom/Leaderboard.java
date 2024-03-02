@@ -3,7 +3,7 @@ package com.bloom;
 import java.util.*;
 
 /**
- * 1244. Design A Leaderboard (Medium) (SolveD)
+ * 1244. Design A Leaderboard Solved Medium
  * https://leetcode.com/problems/design-a-leaderboard/description/
  * Design a Leaderboard class, which has 3 functions:
  * addScore(playerId, score): Update the leaderboard by adding score to the given player's score.

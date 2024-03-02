@@ -11,7 +11,7 @@ echo
 echo "Memory Utilization......"
 #free -m
 top -l 1 -s 0 | grep PhysMem
-vm_stat 
+vm_stat
 
 echo
 echo "Disk Utilization......"
@@ -27,4 +27,3 @@ echo $FREE_DISK
 
 FREE_DISK=$(df -h | awk '{print $4i}')
 echo $FREE_DISK
-

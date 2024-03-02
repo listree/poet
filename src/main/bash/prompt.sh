@@ -8,4 +8,3 @@ then
 else
   echo "Crappy Skill: $SKILL"
 fi
-

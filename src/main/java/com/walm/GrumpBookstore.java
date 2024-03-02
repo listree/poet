@@ -1,7 +1,7 @@
 package com.walm;
 
 /**
- * 1052. Grumpy Bookstore Owner (Medium Unsolved)
+ * 1052. Grumpy Bookstore Owner Solved Medium
  * https://leetcode.com/problems/grumpy-bookstore-owner/description/
  *
  * There is a bookstore owner that has a store open for n minutes. Every minute, some number of customers enter the store.
@@ -14,7 +14,26 @@ package com.walm;
 public class GrumpBookstore {
     // Unsolved
     public int maxSatisfied(int[] customers, int[] grumpy, int minutes) {
-        return 0;
+
+        int max = 0;
+        int n = customers.length;
+        for(int i = 0; i < n; i++) {
+            int sum = 0 ;
+            for(int j = 0; j < minutes; j++) {
+                if( (i + j) < n ) {
+                    if( grumpy[i+j] == 1)
+                        sum += customers[i+j];
+                }
+            }
+            max = Math.max(max, sum);
+        }
+
+        int satisfy = 0 ;
+        for(int i = 0; i < n; i++) {
+            if( grumpy[i] != 1 )
+                satisfy += customers[i];
+        }
+        return satisfy + max;
 
     }
 }

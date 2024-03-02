@@ -3,7 +3,7 @@
 counter=0
 
 while [ $counter -lt 10 ];
-do  
+do
   echo $counter
   counter=$(($counter+1))
   sleep 1

@@ -8,12 +8,12 @@ do
 done
 
 for (( c=1; c<=5; c++ ))
-do  
+do
    echo "Welcome ${c}th times"
 done
 
 
 for (( ; ; ))
-do  
+do
    echo $RANDOM
 done

@@ -26,7 +26,7 @@ public class Intersection {
 
 
     }
-    
+
     public int[][] intervalIntersection(int[][] firstList, int[][] secondList) {
 
 
